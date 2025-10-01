@@ -1,0 +1,31 @@
+{
+  "name": "token-staking-plateform",
+  "version": "1.0.0",
+  "description": "Token Staking Rewards Platform",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "hardhat test",
+    "compile": "hardhat compile",
+    "deploy": "hardhat run scripts/deploy.js",
+    "deploy:sepolia": "hardhat run scripts/deploy.js --network sepolia"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox-mocha-ethers": "^3.0.0",
+    "@nomicfoundation/hardhat-ignition": "^3.0.0",
+    "@openzeppelin/contracts": "^5.0.0",
+    "@types/chai": "^4.2.0",
+    "@types/chai-as-promised": "^8.0.1",
+    "@types/mocha": ">=10.0.10",
+    "@types/node": "^22.8.5",
+    "chai": "^5.1.2",
+    "dotenv": "^16.3.1",
+    "ethers": "^6.14.0",
+    "hardhat": "^3.0.6",
+    "mocha": "^11.0.0",
+    "typescript": "~5.8.0"
+  }
+}
